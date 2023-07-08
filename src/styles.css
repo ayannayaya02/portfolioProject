@@ -1,10 +1,15 @@
 
+h1{
+  background: #f5f2fe;
+  padding:45px;
+}
 .hero{
     text-align:center;
     padding:40px 10px 40px;
   background: #f5f2fe;
 ;
 }
+.content-container,
 .container{
     padding:20px 20px 20px;
     display:block;
@@ -14,15 +19,28 @@
 img{
     display:flex;
 }
+
+.content-container a,
+.work a,
+.work-inquiry a,
 .footer-dec a{
     border:5px;
     border-radius:5px;
     color:white;
+    text-decoration:none;
     padding:5px;
     display:justify-content-center;
     background:violet;
 }
+.about-paragraph{
+    text-align:center;
+    display:flex;
+}
 
+.content-container p{
+    padding:10px;
+    text-align:center;
+}
 footer {
     text-align:center;
     color:black;
